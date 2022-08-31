@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*base*/
+@import "../base/map";
+@import "../base/extend";
+@import "../base/mixin";
+
+/*componente*/
+@import "../Componentes/index";
+
+.servicio-list{
+    list-style: none;
+    color: black;
+    text-decoration: none;
+    padding: 10px, 0, 10px, 0;
+    font-size: medium;
+    
+    }
+.serv-color{
+    background-color: map-get($colores,logo-color);
+    border-color: map-get($colores, logo-color);
+    color: white;
+    margin: 10px 0 0 30px;
+}
+.reseña{
+    padding: 100px 100px 1000px 100px;
+    font-size:x-large;
+    font-family: sans-serif;
+}
+
+.mapa{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.contactenos2 {
+    display: flex;
+    justify-content: left;
+}
+
+
+
+
+.logos{
+    width: 220px;
+    height: 220px;
+}
+
+.footer{
+    height: 260px;
+}
+.webcontainer{
+    width: 100%;
+    height: auto;
+}
+
+    
+

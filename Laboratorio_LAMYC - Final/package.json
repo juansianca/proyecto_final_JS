@@ -1,0 +1,19 @@
+{
+  "name": "laboratorio_lamyc---ultima-entrega",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "sass scss/style.scss style/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juansianca/Laboratorio-LAMYC.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juansianca/Laboratorio-LAMYC/issues"
+  },
+  "homepage": "https://github.com/juansianca/Laboratorio-LAMYC#readme",
+  "description": ""
+}
